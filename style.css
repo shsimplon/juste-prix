@@ -1,0 +1,68 @@
+html {
+    background-image: url(https://magicdice.tv/wp-content/uploads/LJP_Logo-1280x720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    margin: auto;
+    border: 2px solid white;
+    background: white;
+    height: 150px;
+    margin: 10%;
+    padding: 5%;
+}
+
+.small {
+    color: red;
+}
+
+button,
+input {
+    background: lightblue;
+    border-radius: 5%;
+    font-size: 1rem;
+    color: white;
+    height: auto;
+}
+
+button {
+    background-color: blue;
+}
+
+input {
+    width: 60%;
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-self: center;
+}
+
+.contact {
+    display: flex;
+    gap: 25px;
+}
+
+#instructions {
+    color: white;
+}
+
+.instruction {
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.plus {
+    background-color: #f67280;
+}
+
+.moins {
+    background-color: #ffa372;
+}
+
+.fini {
+    background-color: #0c9463;
+}
